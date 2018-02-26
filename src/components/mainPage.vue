@@ -109,7 +109,6 @@ export default {
   mounted() {
     let self=this;
     self.host='http://localhost:8085/kkYiuiOperationSystem';
-//    self.host='http://172.20.4.169:8074/kkYiuiOperationSystem';
 //    self.host=window.localStorage.getItem('YiuiHost')
     self.checkJson=window.localStorage.getItem('checkJson')?window.localStorage.getItem('checkJson'):'[]';
     self.getTabList();
